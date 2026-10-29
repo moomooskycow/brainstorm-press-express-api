@@ -23,7 +23,7 @@ on:
 jobs:
   analyze:
     name: Analyze
-    runs-on: ubuntu-latest
+    runs-on: [self-hosted, hetzner-ci, brainstorm-press-express-api-ci]
     permissions:
       actions: read
       contents: read

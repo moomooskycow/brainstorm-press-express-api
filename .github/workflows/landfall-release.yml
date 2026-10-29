@@ -11,7 +11,7 @@ permissions:
 
 jobs:
   synthesize:
-    runs-on: ubuntu-latest
+    runs-on: [self-hosted, hetzner-ci, brainstorm-press-express-api-ci]
     steps:
       - uses: actions/checkout@v4
         with:
